@@ -1,10 +1,43 @@
+$breakpoints: (
+    "": 576px,
+    "tablet": 768px,
+    "desktop": 992px, 
+    "full-desktop": 1200px
+);
+
+$areas: (a, b, c, d, e, f);
+
 .l-area-2 {
     display: grid;
-    grid-template-areas: "a b";
+    grid-template-areas: 
+        "a b"
+        "c d"
+        "e f"    ;
+    gap: 20px;    
 
-    &--vertical {
-        grid-template-areas:
-            "a"
-            "b";
+    @for $i from 1 through length($areas){
+        &__#{$i}{
+            grid-area: nth($areas, $i);
+        }
+    }
+
+    @each $breakpoint, $width in $breakpoints{
+        @media (min-width: $width) {
+            $separator: \@;
+
+            @if $breakpoint == ""{
+                $separator: "";
+            }
+
+            &--vertical#{$separator}#{$breakpoint}{
+                grid-template-areas:
+                    "a"
+                    "b"
+                    "c"
+                    "d"
+                    "e"
+                    "f";
+            }
+        }
     }
 }
