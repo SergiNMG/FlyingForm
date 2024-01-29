@@ -1,0 +1,10 @@
+.l-area-2 {
+    display: grid;
+    grid-template-areas: "a b";
+
+    &--vertical {
+        grid-template-areas:
+            "a"
+            "b";
+    }
+}

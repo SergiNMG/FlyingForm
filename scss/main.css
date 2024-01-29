@@ -1,0 +1,25 @@
+.l-area-2 {
+  display: grid;
+  grid-template-areas: "a b";
+}
+.l-area-2--vertical {
+  grid-template-areas: "a" "b";
+}
+
+.c-input-text-1 {
+  grid-area: a;
+}
+
+.c-input-text-1 {
+  grid-area: b;
+}
+
+.c-input-text-2 {
+  grid-area: a;
+}
+
+.c-input-text-2 {
+  grid-area: b;
+}
+
+/*# sourceMappingURL=main.css.map */

@@ -1,0 +1,17 @@
+$inputs: (
+    1,
+    2
+);
+
+$areas: (
+    a,
+    b
+);
+
+@each $input in $inputs {
+    @each $area in $areas {
+        .c-input-text-#{$input} {
+            grid-area: $area;
+        }
+    }
+}
