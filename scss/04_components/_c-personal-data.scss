@@ -1,0 +1,10 @@
+.c-personal-data{
+    border-radius: 4px;
+
+    transition: border 1s;
+    outline: none;
+}
+
+.c-personal-data:focus{
+    border: 2px solid var(--color-green-4);
+}

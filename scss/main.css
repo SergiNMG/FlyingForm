@@ -46,6 +46,16 @@
   }
 }
 
+.c-personal-data {
+  border-radius: 4px;
+  transition: border 1s;
+  outline: none;
+}
+
+.c-personal-data:focus {
+  border: 2px solid var(--color-green-4);
+}
+
 .g--padding-1 {
   padding: 0px;
 }
@@ -136,6 +146,341 @@
 
 .g--padding-23 {
   padding: 640px;
+}
+
+:root {
+  --color-white-1: #FFFFFF;
+  --color-white-2: #FCFCFC;
+  --color-white-3: #FAFAFA;
+  --color-white-4: #F7F7F7;
+  --color-white-5: #F5F5F5;
+  --color-white-6: #F2F2F2;
+  --color-white-7: #F0F0F0;
+  --color-white-8: #EBEBEB;
+  --color-blue-1: #BDDCFF;
+  --color-blue-2: #8AC0FF;
+  --color-blue-3: #52A3FF;
+  --color-blue-4: #1F87FF;
+  --color-blue-5: #006DEB;
+  --color-blue-6: #0056B8;
+  --color-blue-7: #003B80;
+  --color-blue-8: #00244D;
+  --color-grey-1: #d9d9d9;
+  --color-grey-2: #c2c2c2;
+  --color-grey-3: #ababab;
+  --color-grey-4: #949494;
+  --color-grey-5: #7d7d7d;
+  --color-grey-6: #666666;
+  --color-grey-7: #4f4f4f;
+  --color-grey-8: #383838;
+  --color-red-1: #fed7d7;
+  --color-red-2: #feb2b2;
+  --color-red-3: #fc8181;
+  --color-red-4: #f56565;
+  --color-red-5: #e53e3e;
+  --color-red-6: #c53030;
+  --color-red-7: #9b2c2c;
+  --color-red-8: #742a2a;
+  --color-green-1: #c6f6d5;
+  --color-green-2: #9ae6b4;
+  --color-green-3: #68d391;
+  --color-green-4: #48bb78;
+  --color-green-5: #38a169;
+  --color-green-6: #2f855a;
+  --color-green-7: #276749;
+  --color-green-8: #22543d;
+  --color-yellow-1: #fefcbf;
+  --color-yellow-2: #faf089;
+  --color-yellow-3: #f6e05e;
+  --color-yellow-4: #ecc94b;
+  --color-yellow-5: #d69e2e;
+  --color-yellow-6: #b7791f;
+  --color-yellow-7: #975a16;
+  --color-yellow-8: #744210;
+}
+
+.g--color-white-1 {
+  color: #FFFFFF;
+}
+
+.g--color-white-2 {
+  color: #FCFCFC;
+}
+
+.g--color-white-3 {
+  color: #FAFAFA;
+}
+
+.g--color-white-4 {
+  color: #F7F7F7;
+}
+
+.g--color-white-5 {
+  color: #F5F5F5;
+}
+
+.g--color-white-6 {
+  color: #F2F2F2;
+}
+
+.g--color-white-7 {
+  color: #F0F0F0;
+}
+
+.g--color-white-8 {
+  color: #EBEBEB;
+}
+
+.g--color-blue-1 {
+  color: #BDDCFF;
+}
+
+.g--color-blue-2 {
+  color: #8AC0FF;
+}
+
+.g--color-blue-3 {
+  color: #52A3FF;
+}
+
+.g--color-blue-4 {
+  color: #1F87FF;
+}
+
+.g--color-blue-5 {
+  color: #006DEB;
+}
+
+.g--color-blue-6 {
+  color: #0056B8;
+}
+
+.g--color-blue-7 {
+  color: #003B80;
+}
+
+.g--color-blue-8 {
+  color: #00244D;
+}
+
+.g--color-grey-1 {
+  color: #d9d9d9;
+}
+
+.g--color-grey-2 {
+  color: #c2c2c2;
+}
+
+.g--color-grey-3 {
+  color: #ababab;
+}
+
+.g--color-grey-4 {
+  color: #949494;
+}
+
+.g--color-grey-5 {
+  color: #7d7d7d;
+}
+
+.g--color-grey-6 {
+  color: #666666;
+}
+
+.g--color-grey-7 {
+  color: #4f4f4f;
+}
+
+.g--color-grey-8 {
+  color: #383838;
+}
+
+.g--color-red-1 {
+  color: #fed7d7;
+}
+
+.g--color-red-2 {
+  color: #feb2b2;
+}
+
+.g--color-red-3 {
+  color: #fc8181;
+}
+
+.g--color-red-4 {
+  color: #f56565;
+}
+
+.g--color-red-5 {
+  color: #e53e3e;
+}
+
+.g--color-red-6 {
+  color: #c53030;
+}
+
+.g--color-red-7 {
+  color: #9b2c2c;
+}
+
+.g--color-red-8 {
+  color: #742a2a;
+}
+
+.g--color-green-1 {
+  color: #c6f6d5;
+}
+
+.g--color-green-2 {
+  color: #9ae6b4;
+}
+
+.g--color-green-3 {
+  color: #68d391;
+}
+
+.g--color-green-4 {
+  color: #48bb78;
+}
+
+.g--color-green-5 {
+  color: #38a169;
+}
+
+.g--color-green-6 {
+  color: #2f855a;
+}
+
+.g--color-green-7 {
+  color: #276749;
+}
+
+.g--color-green-8 {
+  color: #22543d;
+}
+
+.g--color-yellow-1 {
+  color: #fefcbf;
+}
+
+.g--color-yellow-2 {
+  color: #faf089;
+}
+
+.g--color-yellow-3 {
+  color: #f6e05e;
+}
+
+.g--color-yellow-4 {
+  color: #ecc94b;
+}
+
+.g--color-yellow-5 {
+  color: #d69e2e;
+}
+
+.g--color-yellow-6 {
+  color: #b7791f;
+}
+
+.g--color-yellow-7 {
+  color: #975a16;
+}
+
+.g--color-yellow-8 {
+  color: #744210;
+}
+
+.g--margin-1 {
+  margin: 0px;
+}
+
+.g--margin-2 {
+  margin: 4px;
+}
+
+.g--margin-3 {
+  margin: 6x;
+}
+
+.g--margin-4 {
+  margin: 8px;
+}
+
+.g--margin-5 {
+  margin: 10px;
+}
+
+.g--margin-6 {
+  margin: 12px;
+}
+
+.g--margin-7 {
+  margin: 16px;
+}
+
+.g--margin-8 {
+  margin: 20px;
+}
+
+.g--margin-9 {
+  margin: 24px;
+}
+
+.g--margin-10 {
+  margin: 32px;
+}
+
+.g--margin-11 {
+  margin: 40px;
+}
+
+.g--margin-12 {
+  margin: 48px;
+}
+
+.g--margin-13 {
+  margin: 64px;
+}
+
+.g--margin-14 {
+  margin: 80px;
+}
+
+.g--margin-15 {
+  margin: 96px;
+}
+
+.g--margin-16 {
+  margin: 128px;
+}
+
+.g--margin-17 {
+  margin: 160px;
+}
+
+.g--margin-18 {
+  margin: 192px;
+}
+
+.g--margin-19 {
+  margin: 224px;
+}
+
+.g--margin-20 {
+  margin: 256px;
+}
+
+.g--margin-21 {
+  margin: 320px;
+}
+
+.g--margin-22 {
+  margin: 480px;
+}
+
+.g--margin-23 {
+  margin: 640px;
 }
 
 /*# sourceMappingURL=main.css.map */
